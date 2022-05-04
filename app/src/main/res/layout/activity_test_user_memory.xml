@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestUserMemoryActivity"
+    android:background="@drawable/test_user_background">
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/shape6Slider"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:stepSize="1"
+        android:value="0"
+        android:valueFrom="0"
+        android:valueTo="10"
+        app:layout_constraintBottom_toBottomOf="@+id/txtShape6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintStart_toEndOf="@+id/txtShape6"
+        app:layout_constraintTop_toTopOf="@+id/txtShape6"
+        app:thumbRadius="10dp"
+        app:tickColor="@color/slider_tick_color"
+        app:trackColor="@color/track_color" />
+
+    <TextView
+        android:id="@+id/txtShape6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/symbol_6"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtShape1"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/txtShape1"
+        app:layout_constraintTop_toBottomOf="@+id/txtShape5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/shape5Slider"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:stepSize="1"
+        android:value="0"
+        android:valueFrom="0"
+        android:valueTo="10"
+        app:layout_constraintBottom_toBottomOf="@+id/txtShape5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintStart_toEndOf="@+id/txtShape5"
+        app:layout_constraintTop_toTopOf="@+id/txtShape5"
+        app:thumbRadius="10dp"
+        app:tickColor="@color/slider_tick_color"
+        app:trackColor="@color/track_color" />
+
+    <TextView
+        android:id="@+id/txtShape5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/symbol_5"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtShape1"
+        app:layout_constraintStart_toStartOf="@+id/txtShape1"
+        app:layout_constraintTop_toBottomOf="@+id/txtShape4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/shape4Slider"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:stepSize="1"
+        android:value="0"
+        android:valueFrom="0"
+        android:valueTo="10"
+        app:layout_constraintBottom_toBottomOf="@+id/txtShape4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toEndOf="@+id/txtShape4"
+        app:layout_constraintTop_toTopOf="@+id/txtShape4"
+        app:thumbRadius="10dp"
+        app:tickColor="@color/slider_tick_color"
+        app:trackColor="@color/track_color" />
+
+    <TextView
+        android:id="@+id/txtShape4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/symbol_4"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtShape1"
+        app:layout_constraintStart_toStartOf="@+id/txtShape1"
+        app:layout_constraintTop_toBottomOf="@+id/txtShape3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/shape3Slider"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:stepSize="1"
+        android:value="0"
+        android:valueFrom="0"
+        android:valueTo="10"
+        app:layout_constraintBottom_toBottomOf="@+id/txtShape3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toEndOf="@+id/txtShape3"
+        app:layout_constraintTop_toTopOf="@+id/txtShape3"
+        app:thumbRadius="10dp"
+        app:tickColor="@color/slider_tick_color"
+        app:trackColor="@color/track_color" />
+
+    <TextView
+        android:id="@+id/txtShape3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/symbol_3"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtShape1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txtShape1"
+        app:layout_constraintTop_toBottomOf="@+id/txtShape2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/shape2Slider"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:stepSize="1"
+        android:value="0"
+        android:valueFrom="0"
+        android:valueTo="10"
+        app:layout_constraintBottom_toBottomOf="@+id/txtShape2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toEndOf="@+id/txtShape2"
+        app:layout_constraintTop_toTopOf="@+id/txtShape2"
+        app:thumbRadius="10dp"
+        app:tickColor="@color/slider_tick_color"
+        app:trackColor="@color/track_color" />
+
+    <TextView
+        android:id="@+id/txtShape2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/symbol_2"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtShape1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtShape1"
+        app:layout_constraintTop_toBottomOf="@+id/txtShape1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/shape1Slider"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:stepSize="1"
+        android:value="0"
+        android:valueFrom="0"
+        android:valueTo="10"
+        app:layout_constraintBottom_toBottomOf="@+id/txtShape1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toEndOf="@+id/txtShape1"
+        app:layout_constraintTop_toTopOf="@+id/txtShape1"
+        app:layout_constraintVertical_bias="0.48"
+        app:thumbRadius="10dp"
+        app:tickColor="@color/slider_tick_color"
+        app:trackColor="@color/track_color" />
+
+    <TextView
+        android:id="@+id/txtShape1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/symbol_1"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintStart_toStartOf="@+id/txtQuestion"
+        app:layout_constraintTop_toBottomOf="@+id/txtQuestion"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What shapes did you see and how many?"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <Button
+        android:id="@+id/btnCheckAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/track_color"
+        android:text="Check Answer"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shape6Slider"
+        app:layout_constraintVertical_bias="0.213" />
+</androidx.constraintlayout.widget.ConstraintLayout>
