@@ -87,21 +87,21 @@ public class MainMenuActivity extends AppCompatActivity {
     }
 
     private void setupShapeSelection() {
-        Button setup8PointedStar = findViewById(R.id.btn8PointedStar);
-        Button setup5PointedStar = findViewById(R.id.btn5PointedStar);
+        Button setupMusicNote = findViewById(R.id.btnMusicNote);
+        Button setupOmega = findViewById(R.id.btnOmega);
         Button setupFlower = findViewById(R.id.btnFlowerShape);
         Button setupFilledDiamond = findViewById(R.id.btnFilledDiamond);
-        Button setupDiamond = findViewById(R.id.btnDiamondShape);
-        Button setupSnowflake = findViewById(R.id.btnSnowflakeShape);
+        Button setupSquare = findViewById(R.id.btnSquare);
+        Button setupTriangle = findViewById(R.id.btnTriangle);
 
         shapeChosenArrayList = new ArrayList<>();
 
-        tileColorChanger(setup8PointedStar, 1);
-        tileColorChanger(setup5PointedStar, 2);
+        tileColorChanger(setupMusicNote, 1);
+        tileColorChanger(setupOmega, 2);
         tileColorChanger(setupFlower, 3);
         tileColorChanger(setupFilledDiamond, 4);
-        tileColorChanger(setupSnowflake, 5);
-        tileColorChanger(setupDiamond, 6);
+        tileColorChanger(setupTriangle, 5);
+        tileColorChanger(setupSquare, 6);
     }
 
     private void setupStartButton() {
@@ -196,12 +196,12 @@ public class MainMenuActivity extends AppCompatActivity {
 
             // Previous shape chosen
             shapeChosenArrayList = previousChosenShape;
-            Button setup8PointedStar = findViewById(R.id.btn8PointedStar);
-            Button setup5PointedStar = findViewById(R.id.btn5PointedStar);
+            Button setup8PointedStar = findViewById(R.id.btnMusicNote);
+            Button setup5PointedStar = findViewById(R.id.btnOmega);
             Button setupFlower = findViewById(R.id.btnFlowerShape);
             Button setupFilledDiamond = findViewById(R.id.btnFilledDiamond);
-            Button setupDiamond = findViewById(R.id.btnDiamondShape);
-            Button setupSnowflake = findViewById(R.id.btnSnowflakeShape);
+            Button setupDiamond = findViewById(R.id.btnSquare);
+            Button setupSnowflake = findViewById(R.id.btnTriangle);
 
             for (int i = 0; i < shapeChosenArrayList.size(); i++){
                 if (shapeChosenArrayList.get(i) == 1){

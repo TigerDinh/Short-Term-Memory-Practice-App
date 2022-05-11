@@ -13,11 +13,11 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="Easy">Easy</string>
     <string name="Medium">Medium</string>
-    <string name="symbol_1">✷</string>
-    <string name="symbol_2">★</string>
+    <string name="symbol_1">♪</string>
+    <string name="symbol_2">Ω</string>
     <string name="symbol_3">✻</string>
     <string name="symbol_4">✦</string>
-    <string name="symbol_5">❆</string>
-    <string name="symbol_6">♢</string>
+    <string name="symbol_5">▼</string>
+    <string name="symbol_6">■</string>
 
 </resources>

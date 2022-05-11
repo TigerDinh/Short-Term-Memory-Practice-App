@@ -8,28 +8,28 @@
     android:background="@drawable/main_menu_background">
 
     <Button
-        android:id="@+id/btnDiamondShape"
+        android:id="@+id/btnSquare"
         android:layout_width="100sp"
         android:layout_height="100sp"
         android:backgroundTint="@color/transparent"
         android:text="@string/symbol_6"
         android:textColor="@color/black"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toBottomOf="@+id/btnSnowflakeShape"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnTriangle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.359"
-        app:layout_constraintStart_toEndOf="@+id/btnSnowflakeShape"
-        app:layout_constraintTop_toTopOf="@+id/btnSnowflakeShape"
+        app:layout_constraintStart_toEndOf="@+id/btnTriangle"
+        app:layout_constraintTop_toTopOf="@+id/btnTriangle"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/btnSnowflakeShape"
+        android:id="@+id/btnTriangle"
         android:layout_width="100sp"
         android:layout_height="100sp"
         android:backgroundTint="@color/transparent"
-        android:text="❆"
+        android:text="@string/symbol_5"
         android:textColor="@color/black"
-        android:textSize="50sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnFilledDiamond"
         app:layout_constraintHorizontal_bias="0.0"
@@ -44,7 +44,7 @@
         android:backgroundTint="@color/transparent"
         android:text="@string/symbol_4"
         android:textColor="@color/black"
-        android:textSize="50sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/btnFlowerShape"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.359"
@@ -59,27 +59,27 @@
         android:backgroundTint="@color/transparent"
         android:text="@string/symbol_3"
         android:textColor="@color/black"
-        android:textSize="50sp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn5PointedStar"
+        app:layout_constraintEnd_toStartOf="@+id/btnOmega"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/btn8PointedStar"
-        app:layout_constraintTop_toBottomOf="@+id/btn8PointedStar"
+        app:layout_constraintStart_toStartOf="@+id/btnMusicNote"
+        app:layout_constraintTop_toBottomOf="@+id/btnMusicNote"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/btn5PointedStar"
+        android:id="@+id/btnOmega"
         android:layout_width="100sp"
         android:layout_height="100sp"
         android:backgroundTint="@color/transparent"
         android:text="@string/symbol_2"
         android:textColor="@color/black"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toBottomOf="@+id/btn8PointedStar"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnMusicNote"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.359"
-        app:layout_constraintStart_toEndOf="@+id/btn8PointedStar"
-        app:layout_constraintTop_toTopOf="@+id/btn8PointedStar"
+        app:layout_constraintStart_toEndOf="@+id/btnMusicNote"
+        app:layout_constraintTop_toTopOf="@+id/btnMusicNote"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -198,13 +198,13 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/btn8PointedStar"
+        android:id="@+id/btnMusicNote"
         android:layout_width="100sp"
         android:layout_height="100sp"
         android:backgroundTint="@color/transparent"
         android:text="@string/symbol_1"
         android:textColor="@color/black"
-        android:textSize="50sp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.266"
@@ -221,10 +221,10 @@
         android:text="Start"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/btnDiamondShape"
+        app:layout_constraintEnd_toEndOf="@+id/btnSquare"
         app:layout_constraintHorizontal_bias="0.517"
-        app:layout_constraintStart_toStartOf="@+id/btnSnowflakeShape"
-        app:layout_constraintTop_toBottomOf="@+id/btnSnowflakeShape"
+        app:layout_constraintStart_toStartOf="@+id/btnTriangle"
+        app:layout_constraintTop_toBottomOf="@+id/btnTriangle"
         app:layout_constraintVertical_bias="0.113" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

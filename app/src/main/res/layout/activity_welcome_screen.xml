@@ -23,8 +23,8 @@
 
     <ImageView
         android:id="@+id/WelcomeScreenLogo"
-        android:layout_width="257dp"
-        android:layout_height="277dp"
+        android:layout_width="354dp"
+        android:layout_height="396dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
